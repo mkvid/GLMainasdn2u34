@@ -12,7 +12,7 @@ concurrency:
 jobs:
   GLMainDasdn2u34:
     runs-on: ubuntu-latest
-    environment: production
+    environment: GLMainDasdn2u34
     permissions:
       contents: write
     env:
