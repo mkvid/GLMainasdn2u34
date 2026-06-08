@@ -3,7 +3,7 @@ name: GLMainPasdn2u34
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0/30 * * * *"
+    - cron: "*/30 * * * *"
 
 concurrency:
   group: GLMainPasdn2u34-concurrency
